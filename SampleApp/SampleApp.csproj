@@ -84,9 +84,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hoot\Hoot.csproj">
-      <Project>{E6C567B0-ACAD-42D4-9242-4E5E22D2AF1D}</Project>
-      <Name>Hoot</Name>
+    <ProjectReference Include="..\..\RaptorDB-Document\RaptorDB\RaptorDB.csproj">
+      <Project>{45f6be30-989a-4749-b6a0-69099c8661f4}</Project>
+      <Name>RaptorDB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

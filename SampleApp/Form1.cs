@@ -6,9 +6,10 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
-using hOOt;
+//using hOOt;
 using System.Threading;
 using System.Diagnostics;
+using RaptorDB;
 
 
 namespace SampleApp
@@ -119,7 +120,8 @@ namespace SampleApp
                         if (tf != null)
                             s = tf.ReadToEnd();
 
-                        hoot.Index(new Document(new FileInfo(fn), s), true);
+                        //hoot.Index(new Document(new FileInfo(fn), s), true);
+                        hoot.Index(new Document(fn, s), true);
                     }
                 }
                 catch { }
